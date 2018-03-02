@@ -55,7 +55,7 @@
 
 `git clone https://github.com/amoyx/opsys-django.git`
 
-`cd opman-django && pip3 install -r req.txt`
+`cd opsys-django && pip3 install -r req.txt`
 
 - 初始化项目
 
