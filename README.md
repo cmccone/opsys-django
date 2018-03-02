@@ -14,7 +14,7 @@
 
 - 创建uwsgi,nginx进程运行的用户
 
-`useradd opman`
+`useradd opsys`
 
 - 安装MySQL5.7,并设置my.cnf
 
@@ -53,9 +53,9 @@
 
 `cd /data/webroot`
 
-`git clone https://github.com/hgz6536/opman-django.git`
+`git clone https://github.com/amoyx/opsys-django.git`
 
-`cd opman-django && pip3 install -r requirements.txt`
+`cd opman-django && pip3 install -r req.txt`
 
 - 初始化项目
 
