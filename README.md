@@ -26,18 +26,18 @@
 
 - 登录MySQL,并授权项目账号
 
-`GRANT ALL PRIVILEGES ON devop.* TO dbuser_op@'%' IDENTIFIED BY 'devop@2015***';`
+`GRANT ALL PRIVILEGES ON opsys.* TO opsys@'%' IDENTIFIED BY 'opsys***';`
 
-- MySQL连接配置在opman-django/devop/settings.py
+- MySQL连接配置在opsys-django/devop/settings.py
 
 `DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'devop',
-        'USER': 'dbuser_op',
-        'PASSWORD': 'devop@2015***',
+        'NAME': 'opsys',
+        'USER': 'opsys',
+        'PASSWORD': 'opsys***',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '3306',
     }
 }`
 
