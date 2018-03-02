@@ -8,7 +8,7 @@
 
 ## 系统UI界面 ##
 
-![](https://github.com/amoyx/OPSYS/blob/master/images/opsys-v1.0.png)
+![](https://github.com/amoyx/opsys-django/blob/master/opsys-v1.0.png)
 
 ## 部署方法 ##
 
